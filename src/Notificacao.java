@@ -1,4 +1,4 @@
 public interface Notificacao{
-    public void enviaNotificacao (String operacao, double valor);
+    public void enviaNotificacao (String operacao, double value);
     
 }

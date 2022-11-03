@@ -1,8 +1,8 @@
-public class Email implements Notificacao {
+public class Sms implements Notificacao {
 
     @Override
     public void enviaNotificacao(String operacao, double valor){
-            System.out.println("Notificação via E-mail");
+            System.out.println("Notificação via SMS");
             System.out.println(operacao + valor);
     }
     
