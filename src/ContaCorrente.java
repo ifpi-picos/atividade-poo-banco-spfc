@@ -15,11 +15,13 @@ public class ContaCorrente extends Conta{
         saldo -= value;
         conta.deposito(value);
         enviaNotificacao("transf", value);
-        quantidadeSaque++;
+        quantidadeSaque++
       }
+   //Else{
       saldo -= (value +(value * taxa));
       conta.deposito(value);
       enviaNotificacao("transf", value);
+    //}
    }
 
     public void saqueCheque (double value){
